@@ -3,7 +3,7 @@
 import unittest
 import morsecode as mc
 
-from mock import patch
+from unittest.mock import patch
 from io import StringIO
 
 class TestMorseCode(unittest.TestCase):
